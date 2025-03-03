@@ -124,7 +124,7 @@ Additional information about these datasets can be found in the Methods section 
 
 <br>
 <p align="center">
-  <img src="https://github.com/apasqui/zaugnet/blob/main/images/data.png" 
+  <img src="images/data.png" 
        width="1000" height="280" 
     style="border: 2px solid black; border-radius: 10px; padding: 5px; margin-top: 10px;">
   <br>
@@ -137,7 +137,7 @@ Additional information about these datasets can be found in the Methods section 
 * **Volume conservation** in ZAugNet-augmented 16-Cell stage ascidian embryo images:
 <br>
 <p align="center">
-  <img src="https://github.com/apasqui/zaugnet/blob/main/images/volumes.png" 
+  <img src="images/volumes.png" 
        width="1000" height="230" 
     style="border: 2px solid black; border-radius: 10px; padding: 5px; margin-top: 10px;">
 <br>
@@ -146,7 +146,7 @@ Additional information about these datasets can be found in the Methods section 
 * **Roughness quantification** in ZAugNet-augmented cell nuclei images: 
 <br>
 <p align="center">
-  <img src="https://github.com/apasqui/zaugnet/blob/main/images/roughness.png" 
+  <img src="images/roughness.png" 
        width="1000" height="230" 
     style="border: 2px solid black; border-radius: 10px; padding: 5px; margin-top: 10px;">
 <br>
@@ -155,7 +155,7 @@ Additional information about these datasets can be found in the Methods section 
 * **Lengths conservation** in ZAugNet-augmented microtubule filament images:
 <br>
 <p align="center">
-  <img src="https://github.com/apasqui/zaugnet/blob/main/images/lengths.png" 
+  <img src="images/lengths.png" 
        width="1000" height="230" 
     style="border: 2px solid black; border-radius: 10px; padding: 5px; margin-top: 10px;">
 <br>
