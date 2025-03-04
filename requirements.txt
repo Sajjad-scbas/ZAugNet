@@ -1,0 +1,9 @@
+numpy==1.26.4
+opencv-python
+pytorch-fid==0.3.0
+scikit-image==0.24.0
+tensorboard==2.17.0
+tifffile==2024.6.18
+torch==2.3.1
+torchvision==0.18.1
+tqdm==4.66.4
