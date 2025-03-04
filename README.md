@@ -35,7 +35,7 @@ Three-dimensional biological microscopy has significantly advanced our understan
 ## Usage
 
 ### Colab Notebook
-To train, fine-tune, and run predictions with **ZAugNet** and **ZAugNet+**, you can use the [Colab notebook](zaugnet_colab.ipynb).
+To train and run predictions with **ZAugNet** and **ZAugNet+**, you can use the [Colab notebook](zaugnet_colab.ipynb).
 
 Download the Colab notebook and upload it on your [Google Drive account](https://drive.google.com/). 
 
