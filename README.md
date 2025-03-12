@@ -1,6 +1,6 @@
 # ZAugNet for Z-Slice Augmentation in Bio-Imaging
 
-[**PAPER**](https://www.arxiv.org) | [**COLAB**](zaugnet_colab.ipynb) | [**DATA**](https://zenodo.org/)
+[**PAPER**](https://www.arxiv.org) | [**COLAB**](zaugnet_colab.ipynb) | [**DATA**](https://doi.org/10.5281/zenodo.14961732)
 
 **ZAugNet** is a fast, accurate, and self-supervised deep learning-based method designed to enhance z-resolution in biological images.<br>
 It leverages a <em>GAN architecture</em> combined with <em>knowledge distillation</em> to maximize prediction speed without compromising accuracy. 
@@ -35,7 +35,7 @@ Three-dimensional biological microscopy has significantly advanced our understan
 ## Usage
 
 ### Colab Notebook
-To train, fine-tune, and run predictions with **ZAugNet** and **ZAugNet+**, you can use the [Colab notebook](zaugnet_colab.ipynb).
+To train and run predictions with **ZAugNet** and **ZAugNet+**, you can use the [Colab notebook](zaugnet_colab.ipynb).
 
 Download the Colab notebook and upload it on your [Google Drive account](https://drive.google.com/). 
 
@@ -46,20 +46,27 @@ Download the repository and install dependences:
 ```shell
 conda create -n zaugnet python=3.12.2
 conda activate zaugnet
-git clone https://github.com/apasqui/zaugnet.git
+git clone https://github.com/VirtualEmbryo/ZAugNet.git
 ```
 ```shell
-cd ./zaugnet
+cd ./ZAugNet
 pip install -r requirements.txt
 ```
 (Optional) To download the pre-trained models:
 ```shell
-wget https://zenodo.org/
+curl "https://zenodo.org/records/14961732/files/zenodo.zip?download=1" --output ./zaugnet_data_and_models.zip
+unzip ./zaugnet_data_and_models.zip -d ./zaugnet_data_and_models
+mkdir ./data
+mv ./zaugnet_data_and_models/zenodo/ascidians ./data/ascidians
+mv ./zaugnet_data_and_models/zenodo/filaments ./data/filaments
+mv ./zaugnet_data_and_models/zenodo/humans ./data/humans
+mv ./zaugnet_data_and_models/zenodo/nuclei ./data/nuclei
+mv ./zaugnet_data_and_models/zenodo/results ./results
 ```
 
 * #### Predict with pre-trained models
 
-Create a folder in <code>./zaugnet/data/test</code> with the low-resolution images to be ZAugNet-augmented.
+Create a folder in <code>./ZAugNet/data/test</code> with the low-resolution images to be ZAugNet-augmented.
 
 If needed, the default configuration hyper-parameters can be changed in <code>config.py</code>. Every hyper-parameter can also be passed directly with the execution command. 
 
@@ -78,7 +85,7 @@ The dataset options are: <code>'ascidians'</code>, <code>'nuclei'</code>, <code>
 
 * #### Train with your own data
 
-Create a folder in <code>./zaugnet/data/train</code> with the high-resolution images to train your own ZAugNet or ZAugNet+ model.
+Create a folder in <code>./ZAugNet/data/train</code> with the high-resolution images to train your own ZAugNet or ZAugNet+ model.
 
 If needed, the default configuration hyper-parameters can be changed in <code>config.py</code>. Every hyper-parameter can also be passed directly with the execution command. 
 
@@ -94,7 +101,7 @@ python train.py --dataset='<your_dataset_name>' --model_name='zaugnet+'
 
 * #### Predict with your own model
 
-Create a folder in <code>./zaugnet/data/test</code> with the low-resolution images to be ZAugNet-augmented.
+Create a folder in <code>./ZAugNet/data/test</code> with the low-resolution images to be ZAugNet-augmented.
 
 If needed, the default configuration hyper-parameters can be changed in <code>config.py</code>. Every hyper-parameter can also be passed directly with the execution command. 
 
@@ -111,7 +118,7 @@ python predict.py --dataset='<your_dataset_name>' --model_name='zaugnet+'
 
 ## Data
 
-All the data used for training our neural networks are freely available on [Zenodo](https://zenodo.org/).<br>
+All the data used for training our neural networks are freely available on [Zenodo](https://doi.org/10.5281/zenodo.14961732).<br>
 
 In the Zenodo repository, you will find 4 datasets carefully selected to encompass diverse shapes, textures, and microscopy techniques. These datasets include:
 
