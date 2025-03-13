@@ -1,17 +1,17 @@
 # ZAugNet for Z-Slice Augmentation in Bio-Imaging
 
-[**PAPER**](https://www.arxiv.org) | [**COLAB**](zaugnet_colab.ipynb) | [**DATA**](https://doi.org/10.5281/zenodo.14961732)
+[**PAPER**](https://arxiv.org/abs/2503.04843) | [**COLAB**](zaugnet_colab.ipynb) | [**DATA**](https://doi.org/10.5281/zenodo.14961732)
 
 **ZAugNet** is a fast, accurate, and self-supervised deep learning-based method designed to enhance z-resolution in biological images.<br>
 It leverages a <em>GAN architecture</em> combined with <em>knowledge distillation</em> to maximize prediction speed without compromising accuracy. 
 
-**ZAugNet** was developed by [Alessandro Pasqui](https://apasqui.github.io/) during his PhD at [Turlier Lab](https://www.turlierlab.com/), in collaboration with [Sajjad Mahdavi](https://www.linkedin.com/in/sajjad-mahdavi-4a3a48164/?originalSubdomain=fr), a research engineer in the same laboratory. The project is maintained by Hervé Turlier. For support, please open an issue. If you use **ZAugNet** in your work, please cite our [paper](https://www.arxiv.org).
+**ZAugNet** was developed by [Alessandro Pasqui](https://apasqui.github.io/) during his PhD at [Turlier Lab](https://www.turlierlab.com/), in collaboration with [Sajjad Mahdavi](https://www.linkedin.com/in/sajjad-mahdavi-4a3a48164/?originalSubdomain=fr), a research engineer in the same laboratory. The project is maintained by Hervé Turlier. For support, please open an issue. If you use **ZAugNet** in your work, please cite our [paper](https://arxiv.org/abs/2503.04843).
 
 <br> <!-- Adds space before the image -->
 
 <p align="center" style="margin-top: 20px;">
-  <img src="images/method.png" 
-       width="1000" height="300" 
+  <img src="images/method_zaugnet.png" 
+       width="1000" height="400" 
        style="border: 2px solid black; border-radius: 10px; padding: 5px; margin-top: 10px;">
 </p>
 
@@ -173,7 +173,14 @@ Additional information about these datasets can be found in the Methods section 
 If you use this work, please cite:
 
 ```bibtex
-@article {
+@misc{pasqui2025zaugnetzsliceaugmentationbioimaging,
+      title={ZAugNet for Z-Slice Augmentation in Bio-Imaging}, 
+      author={Alessandro Pasqui and Sajjad Mahdavi and Benoit Vianay and Alexandra Colin and Alex McDougall and Rémi Dumollard and Yekaterina A. Miroshnikova and Elsa Labrune and Hervé Turlier},
+      year={2025},
+      eprint={2503.04843},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.04843}, 
 }
 ```
 
