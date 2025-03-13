@@ -11,7 +11,7 @@ It leverages a <em>GAN architecture</em> combined with <em>knowledge distillatio
 
 <p align="center" style="margin-top: 20px;">
   <img src="images/method_zaugnet.png" 
-       width="1000" height="300" 
+       width="1000" height="500" 
        style="border: 2px solid black; border-radius: 10px; padding: 5px; margin-top: 10px;">
 </p>
 
