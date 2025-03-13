@@ -10,7 +10,7 @@ It leverages a <em>GAN architecture</em> combined with <em>knowledge distillatio
 <br> <!-- Adds space before the image -->
 
 <p align="center" style="margin-top: 20px;">
-  <img src="images/method.png" 
+  <img src="images/method_zaugnet.png" 
        width="1000" height="300" 
        style="border: 2px solid black; border-radius: 10px; padding: 5px; margin-top: 10px;">
 </p>
