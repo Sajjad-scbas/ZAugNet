@@ -1,4 +1,4 @@
-# ZAugNet for Z-Slice Augmentation in Bio-Imaging
+# Self-Supervised Z-Slice Augmentation for 3D Bio-Imaging via Knowledge Distillation
 
 [**PAPER**](https://arxiv.org/abs/2503.04843) | [**COLAB**](zaugnet_colab.ipynb) | [**DATA**](https://doi.org/10.5281/zenodo.14961732)
 
@@ -173,8 +173,8 @@ Additional information about these datasets can be found in the Methods section 
 If you use this work, please cite:
 
 ```bibtex
-@misc{pasqui2025zaugnetzsliceaugmentationbioimaging,
-      title={ZAugNet for Z-Slice Augmentation in Bio-Imaging}, 
+@misc{pasqui2025selfsupervisedzsliceaugmentation3d,
+      title={Self-Supervised Z-Slice Augmentation for 3D Bio-Imaging via Knowledge Distillation}, 
       author={Alessandro Pasqui and Sajjad Mahdavi and Benoit Vianay and Alexandra Colin and Alex McDougall and Rémi Dumollard and Yekaterina A. Miroshnikova and Elsa Labrune and Hervé Turlier},
       year={2025},
       eprint={2503.04843},
