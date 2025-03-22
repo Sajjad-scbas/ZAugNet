@@ -174,8 +174,7 @@ If you use this work, please cite:
 
 ```bibtex
 @misc{pasqui2025selfsupervisedzsliceaugmentation3d,
-      title={Self-Supervised Z-Slice Augmentation for 3D Bio-Imaging via Knowledge Distillation}, 
-      author={Alessandro Pasqui and Sajjad Mahdavi and Benoit Vianay and Alexandra Colin and Alex McDougall and Rémi Dumollard and Yekaterina A. Miroshnikova and Elsa Labrune and Hervé Turlier},
+      title={Self-Supervised Z-Slice Augmentation for 3D Bio-Imaging via Knowledge Distillation}, author={Alessandro Pasqui and Sajjad Mahdavi and Benoit Vianay and Alexandra Colin and Alex McDougall and Rémi Dumollard and Yekaterina A. Miroshnikova and Elsa Labrune and Hervé Turlier},
       year={2025},
       eprint={2503.04843},
       archivePrefix={arXiv},
