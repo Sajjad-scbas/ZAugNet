@@ -21,7 +21,7 @@ def load_model(cfg, dataset, model_name):
 
     zaug = ZAugGenerator(cfg)
     zaug.set_multiple_gpus()
-    zaug.load_state_dict(torch.load(path_model))
+    zaug.load_state_dict(torch.load(path_model,  map_location=f"cuda:{cfg.device_ids[0]}"))
     zaug.eval()
 
     return zaug
